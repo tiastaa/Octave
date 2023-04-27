@@ -1,0 +1,10 @@
+cars=[1 1 2 1 2 3 1 2 3 4 1 2 3 4 5; 1 2 1 2 3 1 2 3 4 1 2 3 4 5 1;
+2 1 2 3 1 2 3 4 1 2 3 4 5 1 2];
+subplot(2,1,1);
+bar(cars),grid on;
+title('2d');
+ylabel('кількість');
+subplot(2,1,2);
+surf(cars);
+title('3d');
+zlabel('кількість');
